@@ -1,0 +1,38 @@
+.title span {
+  color: #26ffcb;
+}
+
+.title img {
+    padding-left: 20px;
+    height: 50px;
+}
+
+.board {
+  width: 500px;
+}
+
+.boxes {
+  display: flex;
+  width: 155px;
+  height: 155px;
+  background-color: #1f3540;
+  border-radius: 12px;
+  border: 5px solid #0f1b21;
+  cursor: pointer;
+}
+
+.boxes img {
+    margin: 35px;
+}
+
+.reset {
+  width: 170px;
+  height: 60px;
+  background-color: #1f3540;
+  color: #26ffcb;
+  border-radius: 50px;
+}
+
+.reset:is(:hover, :focus-visible) {
+  opacity: 0.8;
+}
