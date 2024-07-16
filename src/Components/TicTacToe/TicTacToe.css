@@ -1,3 +1,8 @@
+/* Laptop */
+.title {
+  font-size: 50px;
+}
+
 .title span {
   color: #26ffcb;
 }
@@ -31,8 +36,87 @@
   background-color: #1f3540;
   color: #26ffcb;
   border-radius: 50px;
+  font-size: 30px;
 }
 
 .reset:is(:hover, :focus-visible) {
   opacity: 0.8;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .board {
+    width: 370px;
+  }
+
+  .boxes {
+    width: 115px;
+    height: 115px;
+  }
+
+  .boxes img {
+    margin: 25px;
+  }
+
+  .reset {
+    font-size: 25px;
+    width: 140px;
+    height: 50px;
+  }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .board {
+    width: 290px;
+  }
+
+  .boxes {
+    width: 90px;
+    height: 90px;
+  }
+
+  .boxes img {
+    margin: 15px;
+  }
+
+  .reset {
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+  }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .board {
+    width: 260px;
+  }
+
+  .boxes {
+    width: 80px;
+    height: 80px;
+  }
+
+  .boxes img {
+    margin: 10px;
+  }
+
+  .reset {
+    font-size: 17.5px;
+    width: 100px;
+    height: 35px;
+  }
 }

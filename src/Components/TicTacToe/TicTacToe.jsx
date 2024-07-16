@@ -70,7 +70,7 @@ const TicTacToe = () => {
     <div className="tic-tac-toe text-center">
       <h1
         ref={titleRef}
-        className="title text-white mt-7 text-6xl flex items-center justify-center"
+        className="title text-white mt-7 flex items-center justify-center"
       >
         Tic Tac Toe Game In&nbsp;<span>React</span>
       </h1>
@@ -88,7 +88,7 @@ const TicTacToe = () => {
       <button
         type="button"
         onClick={resetGame}
-        className="reset flex items-center justify-center m-auto text-3xl border-none outline-none cursor-pointer"
+        className="reset flex items-center justify-center m-auto border-none outline-none cursor-pointer"
       >
         Reset
       </button>
